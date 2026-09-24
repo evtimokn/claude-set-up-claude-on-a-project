@@ -29,3 +29,9 @@ Run a single test file: `node --test tests/users.test.js`
 
 - CommonJS modules (`require`/`module.exports`), not ESM.
 - Route handlers stay thin: validation and response shaping in the router, data logic in `db/store.js`.
+- Every new file must start with this header, with `<year>` replaced by the current year:
+  ```
+  -----------------------------------
+  evtimokn <year>
+  -----------------------------------
+  ```
